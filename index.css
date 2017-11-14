@@ -1,0 +1,22 @@
+.child {
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: red;
+}
+
+ .overlay{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50, -50%);
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.parent:hover .overlay{
+  opacity: 1;
+}
